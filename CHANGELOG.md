@@ -1,8 +1,10 @@
-# Unreleased
+# 0.5.0 - 2021-10-14
 
+- Add whitelist module.
 - Rename `secp256k1_zkp::bitcoin_hashes` module to `secp256k1_zkp::hashes`.
 - Rename feature `hashes` to `bitcoin_hashes` to align with `rust-secp256k1`.
 - Implement `serde::{Serialize, Deserialize}` for `EcdsaAdaptorSignature`.
+- Implement `AsRef` for `EcdsaAdaptorSignature`.
 
 # 0.4.0 - 2021-05-04
 
